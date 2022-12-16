@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "188409651495",
+    "project_id": "pivotal-erp-357e1",
+    "storage_bucket": "pivotal-erp-357e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188409651495:android:699f6feedcb09c0db84902",
+        "android_client_info": {
+          "package_name": "com.example.pivotal_erp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188409651495-iq4hj1ammc9t85ujfnmm42842s202flj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwWQc2TiypG4GwAUD6KnZzL-H06TTjI88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188409651495-iq4hj1ammc9t85ujfnmm42842s202flj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
