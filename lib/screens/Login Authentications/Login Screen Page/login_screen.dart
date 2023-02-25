@@ -1,3 +1,5 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:pivotal_erp/screens/Login%20Authentications/SignUp%20Screen%20Page/signup_screen.dart';
 import 'package:pivotal_erp/screens/nav_page.dart';
@@ -15,6 +17,12 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
+
+  // @override
+  // void initState() {
+  //   FirebaseMessaging.instance.subscribeToTopic(topic)
+  //   super.initState();
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -234,10 +242,10 @@ class _LoginScreenState extends State<LoginScreen> {
                                     image: AssetImage(
                                         "assets/images/logos/gooogle_logo.png")),
                                 Image(
-                                    height: 45,
-                                    width: 45,
+                                    height: 50,
+                                    width: 50,
                                     image: AssetImage(
-                                        "assets/images/logos/mobile_Logo.png"))
+                                        "assets/images/logos/Mobile_icon.png"))
                               ],
                             ),
                           ),
